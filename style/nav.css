@@ -16,4 +16,10 @@ nav li a {
 }
 .dropdown {
   display: none;
+  position: absolute;
+  background-color: rgb(144, 161, 127);
+  padding: 0;
+}
+nav > ul > li:hover > ul {
+  display: block;
 }
