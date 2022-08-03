@@ -7,19 +7,31 @@
     <title>Document</title>
     <style>
       .mega {
-        width: 500px;
-        height: 400px;
+        width: 300px;
+        height: 200px;
         border: 3px solid blue;
         overflow-y: scroll;
       }
       .meg {
-        width: 500px;
-        height: 400px;
+        width: 300px;
+        height: 200px;
         border: 3px solid rgb(39, 228, 218);
+      }
+      .min {
+        width: 100px;
+        border: 3px solid red;
+      }
+      .text {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow-x: hidden;
       }
     </style>
   </head>
   <body>
+    <div class="min">
+      <p class="text" title="this is a short text">this is a short text</p>
+    </div>
     <div class="mega">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
